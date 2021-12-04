@@ -15,8 +15,13 @@ body{
   align-items: center;
 }
 
-.mainInner{
+.mainInner-top{
   max-width: 400px;
+  margin: auto;
+}
+
+.mainInner{
+  max-width: 600px;
   margin: auto;
 }
 
