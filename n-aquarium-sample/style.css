@@ -68,6 +68,10 @@ h2{
   margin-right: 10px;
 }
 
+.clearfix {
+  line-height: 30px;
+}
+
 .clearfix:after{
   content: "";
   display: block;
