@@ -16,7 +16,7 @@ body{
 }
 
 .mainInner{
-  max-width: 650px;
+  max-width: 400px;
   margin: auto;
 }
 
@@ -61,6 +61,20 @@ h2{
   padding: 0 15px;
   color: #fff;
   text-align: center;
+}
+
+.icon-list{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.picture{
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  border:  9px solid rgb(236, 70, 153);
+  border-radius: 250px;
 }
 
 .aboutWrapper img{
