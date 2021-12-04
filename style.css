@@ -15,6 +15,11 @@ body{
   align-items: center;
 }
 
+.keyVisual{
+  border-radius: 30px;
+  width: 100%;
+}
+
 .mainInner{
   max-width: 650px;
   margin: auto;
@@ -57,6 +62,7 @@ footer{
 
 h2{
   background-image: url("niconico_bg_blue.png");
+  border-radius: 30px;
   line-height: 50px;
   padding: 0 15px;
   color: #fff;
@@ -66,10 +72,24 @@ h2{
 .aboutWrapper img{
   float:left;
   margin-right: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
 }
 
 .clearfix:after{
   content: "";
   display: block;
   clear: both;
+}
+
+.indexBox{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50 0 50;
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 30px;
 }
