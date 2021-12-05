@@ -16,7 +16,7 @@ body{
 }
 
 .mainInner-top{
-  max-width: 400px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -70,8 +70,14 @@ h2{
 
 .icon-list{
   display: flex;
-  gap: 10px;
+  gap: 50px;
   flex-wrap: wrap;
+}
+
+.icon-box{
+  width: 400px;
+  margin: auto;
+  padding: 30px;
 }
 
 .picture{
