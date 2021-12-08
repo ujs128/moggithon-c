@@ -1,5 +1,8 @@
 body{
   margin: 0;
+  background-image: url("../images/37130.jpg");
+  background-size: cover;
+  background-attachment:fixed;
 }
 
 .logo{
@@ -38,12 +41,17 @@ footer{
 .priceWrapper th,
 .priceWrapper td{
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .priceWrapper th,
 .priceWrapper td{
   padding: 7px;
+  color: #ebebeb;
+}
+
+.priceWrapper p{
+  color: #ebebeb;
 }
 
 .priceWrapper table{
@@ -52,7 +60,7 @@ footer{
 
 .priceWrapper th{
   width: 150px;
-  background: #eee;
+  background: #2f3eb491;
 }
 
 h2{
@@ -63,6 +71,10 @@ h2{
   text-align: center;
 }
 
+.noteWrapper li{
+  color: #ebebeb;
+}
+
 .aboutWrapper img{
   float:left;
   margin-right: 10px;
@@ -70,6 +82,9 @@ h2{
 
 .clearfix {
   line-height: 30px;
+  color: #ebebeb;
+  /* background-color: #606c7611; */
+  /* backdrop-filter: blur(12px); */
 }
 
 .clearfix:after{
