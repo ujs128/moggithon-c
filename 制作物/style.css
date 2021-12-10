@@ -77,7 +77,7 @@ h2{
 .icon-box{
   width: 400px;
   margin: auto;
-  padding: 30px;
+  padding: auto;
 }
 
 .hover{
