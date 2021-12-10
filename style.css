@@ -3,7 +3,7 @@ body {
     background: linear-gradient( 135deg, rgba(207, 222, 231, 0.87), rgba(121, 167, 209, 0.8)), url(soraru.jpg);
     background-size: cover;
     font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: large;
 }
 
@@ -99,18 +99,22 @@ h2 {
 .wrapperPhoto3:hover {
     background-repeat: no-repeat;
     border-radius: 10%;
+    /* transform: scale(1.5); */
 }
 
 .wrapperPhoto1:hover {
-    background-image: url("sea2.jpeg");
+    background-image: url("anago2.jpg");
+    transform: scale(1.5);
 }
 
 .wrapperPhoto2:hover {
-    background-image: url("anago2.jpg");
+    background-image: url("esa.jpg");
+    transform: scale(1.5);
 }
 
 .wrapperPhoto3:hover {
     background-image: url("show2.jpg");
+    transform: scale(1.5);
 }
 
 .clearfix {
